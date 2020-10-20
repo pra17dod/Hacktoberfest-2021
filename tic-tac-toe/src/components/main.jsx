@@ -396,8 +396,6 @@ class Main extends Component {
                 <br/><br/><br/>
                 <h4>Press any button to start the game noobs !</h4>
                 <br/>
-                {/* <h3>{this.state.clicks === 9 ? <span class="badge badge-light">{answer}</span> : 
-                <span class="badge badge-light">Come on noobs</span>}</h3> */}
                 <h3><span className="badge badge-light">{answer}</span></h3>
                 <br/>
                 

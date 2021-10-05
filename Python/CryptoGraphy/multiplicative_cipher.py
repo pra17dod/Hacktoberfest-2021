@@ -1,27 +1,29 @@
 def inv(num):
     if num==1:
-        return 1
+        a = 1
     elif num==5:
-        return 21
+        a = 21
     elif num==21:
-        return 5
+        a = 5
     elif num==7:
-        return 15
+        a = 15
     elif num==15:
-        return 7
+        a = 7
     elif num==11:
-        return 19
+        a = 19
     elif num==17:
-        return 23
+        a = 23
     elif num==23:
-        return 17
+        a =  17
     elif num==25:
-        return 25
+        a =  25
+    return a
+    
 
 
 a = input("Enter input : ")
 key = int(input("Enter key value : "))
-choice = int(input("1 for enc, 2 for dec"))
+choice = int(input("1 for encryption, 2 for decryption"))
 
 out = []
 if(choice==1):

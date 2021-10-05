@@ -1,4 +1,4 @@
-n = int(input("Enter a value : "))
+n = int(input("Enter a value : ")) 
 print("(0,0)")
 for i in range(0,n):
     for j in range(n//2,n):

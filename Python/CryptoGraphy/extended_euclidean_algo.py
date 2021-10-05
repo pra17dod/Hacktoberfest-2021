@@ -1,30 +1,19 @@
-import numpy as np
-
-from pandas import *
 from tabulate import tabulate
 
+r1 = int(input("Enter value 1 : "))
+r2 = int(input("Enter value 2 : "))
 
-
-r1 = int(input("Enter a : "))
-r2 = int(input("Enter b : "))
-
-
+a=r1
+b=r2
 s1 = 1
 s2 = 0
-
 t1 = 0
 t2 = 1
-
 s=0
 t=0
-
-
 c = 0
 
-#print("q    r1  r2  r   s1  s2  t1  t2")
-
 ans = []
-
 ans.append(['q','r1','r2','r','s1','s2','s','t1','t2','t'])
 
 while(r2!=0):
@@ -57,7 +46,7 @@ while(r2!=0):
     ans.append(h)
     c+=1
 
-print(c)
+
 
 v=[]
 v.append(" ")
@@ -71,10 +60,15 @@ v.append(ans[c][8])
 v.append(ans[c][9])
 v.append(" ")
 
+#Final Answer
 ans.append(v)
 
-
-
-
-
+#Output
+print("\n\n          Tabular Output      \n")
 print(tabulate(ans))   
+print("\nG.C.D : " + str(ans[c][2]))
+
+if(ans[c][2]==1):
+    print("The inverse of {0} mod {1} is {2} ".format(a,b,ans[c][5]))
+else:
+    print("The inverse doesnt exist")

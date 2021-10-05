@@ -22,6 +22,7 @@ Contributing to open source can be an awarding way to learn, teach, and build ex
 
 ## How to publish an issue ?
 ![issue.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1631851729552/Q55dXLBk0.png)
+
 By clicking the issue you will be navigated to the page where you can see a button called **new issue**
 ![new issue.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1631851778834/6Wsqgzxoe.png)
 Click the **New issue** you will be navigated to a comment box at that box, comment what you like to change in the repository and **submit the issue**, once they accept the issue given by you they will **assign** you to contribute to the project.

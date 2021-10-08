@@ -23,7 +23,7 @@ def get_Host_name_IP():
 
 get_Host_name_IP() #Function call
 url = 'http://ipinfo.io/json'
-if url.lower().startswith('http'):
+if (url.lower().startswith('http')):
     response = urlopen(url)
 else:
     raise ValueError from None

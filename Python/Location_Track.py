@@ -24,15 +24,14 @@ def get_Host_name_IP():
 get_Host_name_IP() #Function call
 url = 'http://ipinfo.io/json'
 if (url.lower().startswith('http')):
-    response = urlopen(url)
-else:
-    raise ValueError from None
-data = json.load(response)
+    try:
+        response = urlopen(url)
+        data = json.load(response)
+        org=data['org']city = data['city']
+        country=data['country']
+        region=data['region']
+        print(city)
+        print(country)
+        print(region)
 
-org=data['org']
-city = data['city']
-country=data['country']
-region=data['region']
-print(city)
-print(country)
-print(region)
+

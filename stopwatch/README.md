@@ -1,5 +1,7 @@
 # Stopwatch
 
+![demo](https://user-images.githubusercontent.com/61181201/136660272-ad6eed86-9239-4eb5-9305-aca46611ade0.png)
+
 ## About
 
 This is a simple stopwatch project created with [Angular CLI](https://github.com/angular/angular-cli) for Hacktoberfest 2021!

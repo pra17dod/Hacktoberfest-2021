@@ -27,8 +27,7 @@ void DFS1(int x){
     st.push(x) ;
 }
 
-void reverse()
-{
+void reverse(){
 	for(int i=0;i<V;++i)
 	{
 		for(int j: g[i])
@@ -65,7 +64,7 @@ void findSCC(int n){
 }
 
 int main(){
-
+   // Adding Edges of a Graph
     g[0].pb(1) ; 
     g[1].pb(2) ; 
     g[2].pb(3) ; 
